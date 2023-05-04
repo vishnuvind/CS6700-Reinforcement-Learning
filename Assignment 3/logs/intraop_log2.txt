@@ -1,0 +1,63 @@
+Testing Configuration: 1
+Hyperparameters: [alpha = 0.5, gamma = 0.9, epsilon = 0.1]
+Average Reward: -12.068724333333329
+***************************************************************************
+
+Testing Configuration: 2
+Hyperparameters: [alpha = 0.5, gamma = 0.9, epsilon = 0.01]
+Average Reward: -4.907488533333333
+***************************************************************************
+
+Testing Configuration: 3
+Hyperparameters: [alpha = 0.5, gamma = 0.9, epsilon = 0.001]
+Average Reward: -3.2526092333333327
+***************************************************************************
+
+Testing Configuration: 4
+Hyperparameters: [alpha = 0.1, gamma = 0.9, epsilon = 0.1]
+Average Reward: -41.48718526666667
+***************************************************************************
+
+Testing Configuration: 5
+Hyperparameters: [alpha = 0.1, gamma = 0.9, epsilon = 0.01]
+Average Reward: -31.0017038
+***************************************************************************
+
+Testing Configuration: 6
+Hyperparameters: [alpha = 0.1, gamma = 0.9, epsilon = 0.001]
+Average Reward: -29.898232599999996
+***************************************************************************
+
+Testing Configuration: 7
+Hyperparameters: [alpha = 0.05, gamma = 0.9, epsilon = 0.1]
+Average Reward: -71.21844716666666
+***************************************************************************
+
+Testing Configuration: 8
+Hyperparameters: [alpha = 0.05, gamma = 0.9, epsilon = 0.01]
+Average Reward: -65.5534306
+***************************************************************************
+
+Testing Configuration: 9
+Hyperparameters: [alpha = 0.05, gamma = 0.9, epsilon = 0.001]
+Average Reward: -60.69982540000001
+***************************************************************************
+
+Testing Configuration: 10
+Hyperparameters: [alpha = 0.01, gamma = 0.9, epsilon = 0.1]
+Average Reward: -201.13455813333334
+***************************************************************************
+
+Testing Configuration: 11
+Hyperparameters: [alpha = 0.01, gamma = 0.9, epsilon = 0.01]
+Average Reward: -201.4054595
+***************************************************************************
+
+Testing Configuration: 12
+Hyperparameters: [alpha = 0.01, gamma = 0.9, epsilon = 0.001]
+Average Reward: -198.5746931333333
+***************************************************************************
+
+
+Best Reward: -3.2526092333333327
+Best Hyperparameters: {'alpha': 0.5, 'gamma': 0.9, 'epsilon': 0.001}

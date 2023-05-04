@@ -1,0 +1,103 @@
+Testing Configuration: 1
+Hyperparameters: [alpha = 0.5, gamma = 0.9, epsilon = 0.1]
+Average Reward: -52.77733333333333
+***************************************************************************
+
+Testing Configuration: 2
+Hyperparameters: [alpha = 0.5, gamma = 0.9, epsilon = 0.05]
+Average Reward: -64.092
+***************************************************************************
+
+Testing Configuration: 3
+Hyperparameters: [alpha = 0.5, gamma = 0.9, epsilon = 0.01]
+Average Reward: -100.766
+***************************************************************************
+
+Testing Configuration: 4
+Hyperparameters: [alpha = 0.5, gamma = 0.9, epsilon = 0.005]
+Average Reward: -115.675
+***************************************************************************
+
+Testing Configuration: 5
+Hyperparameters: [alpha = 0.5, gamma = 0.9, epsilon = 0.001]
+Average Reward: -109.37166666666667
+***************************************************************************
+
+Testing Configuration: 6
+Hyperparameters: [alpha = 0.1, gamma = 0.9, epsilon = 0.1]
+Average Reward: -53.43966666666667
+***************************************************************************
+
+Testing Configuration: 7
+Hyperparameters: [alpha = 0.1, gamma = 0.9, epsilon = 0.05]
+Average Reward: -71.166
+***************************************************************************
+
+Testing Configuration: 8
+Hyperparameters: [alpha = 0.1, gamma = 0.9, epsilon = 0.01]
+Average Reward: -107.46166666666667
+***************************************************************************
+
+Testing Configuration: 9
+Hyperparameters: [alpha = 0.1, gamma = 0.9, epsilon = 0.005]
+Average Reward: -113.33633333333333
+***************************************************************************
+
+Testing Configuration: 10
+Hyperparameters: [alpha = 0.1, gamma = 0.9, epsilon = 0.001]
+Average Reward: -120.68866666666666
+***************************************************************************
+
+Testing Configuration: 11
+Hyperparameters: [alpha = 0.05, gamma = 0.9, epsilon = 0.1]
+Average Reward: -59.35333333333333
+***************************************************************************
+
+Testing Configuration: 12
+Hyperparameters: [alpha = 0.05, gamma = 0.9, epsilon = 0.05]
+Average Reward: -71.955
+***************************************************************************
+
+Testing Configuration: 13
+Hyperparameters: [alpha = 0.05, gamma = 0.9, epsilon = 0.01]
+Average Reward: -107.99933333333334
+***************************************************************************
+
+Testing Configuration: 14
+Hyperparameters: [alpha = 0.05, gamma = 0.9, epsilon = 0.005]
+Average Reward: -115.76033333333334
+***************************************************************************
+
+Testing Configuration: 15
+Hyperparameters: [alpha = 0.05, gamma = 0.9, epsilon = 0.001]
+Average Reward: -124.905
+***************************************************************************
+
+Testing Configuration: 16
+Hyperparameters: [alpha = 0.01, gamma = 0.9, epsilon = 0.1]
+Average Reward: -76.01033333333334
+***************************************************************************
+
+Testing Configuration: 17
+Hyperparameters: [alpha = 0.01, gamma = 0.9, epsilon = 0.05]
+Average Reward: -87.73933333333333
+***************************************************************************
+
+Testing Configuration: 18
+Hyperparameters: [alpha = 0.01, gamma = 0.9, epsilon = 0.01]
+Average Reward: -104.76366666666667
+***************************************************************************
+
+Testing Configuration: 19
+Hyperparameters: [alpha = 0.01, gamma = 0.9, epsilon = 0.005]
+Average Reward: -108.72033333333333
+***************************************************************************
+
+Testing Configuration: 20
+Hyperparameters: [alpha = 0.01, gamma = 0.9, epsilon = 0.001]
+Average Reward: -109.656
+***************************************************************************
+
+
+Best Reward: -52.77733333333333
+Best Hyperparameters: {'alpha': 0.5, 'gamma': 0.9, 'epsilon': 0.1}

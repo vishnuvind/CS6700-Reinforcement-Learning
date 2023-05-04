@@ -1,0 +1,221 @@
+Running Experiment with parameters: Start State: [0, 4], Wind: True, Transition Probability: 1.0, Exploration Policy: softmax
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.005
+ERROR! Session/line number was not unique in database. History logging moved to new session 141
+Total Reward: -7.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.05
+Total Reward: -7.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.1
+Total Reward: -10.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.005
+Total Reward: -7.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.05
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.1
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.005
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.01
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.05
+Total Reward: -8.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.1
+Total Reward: -8.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.005
+Total Reward: -8.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.01
+Total Reward: -11.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.05
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.1
+Total Reward: -7.0
+
+Best Reward -6.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.01, 'gamma': 0.9, 'beta': 0.01}, {'alpha': 0.01, 'gamma': 1.0, 'beta': 0.01}, {'alpha': 0.01, 'gamma': 1.0, 'beta': 0.05}, {'alpha': 0.1, 'gamma': 0.9, 'beta': 0.005}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.01
+Regret: 105283.99999999999
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.01
+Regret: 104543.6
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.05
+Regret: 107215.2
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.005
+Regret: 30161.0
+
+Best Regret: 30161.0
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 0.9, 'beta': 0.005}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [0, 4], Wind: True, Transition Probability: 0.7, Exploration Policy: softmax
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.005
+Total Reward: -50.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.01
+Total Reward: -8.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.05
+Total Reward: -24.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.1
+Total Reward: -23.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.005
+Total Reward: -31.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.01
+Total Reward: -170.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.05
+Total Reward: -10.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.1
+Total Reward: -27.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.005
+Total Reward: -61.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.01
+Total Reward: -21.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.05
+Total Reward: -5.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.1
+Total Reward: -25.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.005
+Total Reward: -21.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.01
+Total Reward: -30.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.05
+Total Reward: -22.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.1
+Total Reward: -23.0
+
+Best Reward -5.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.1, 'gamma': 0.9, 'beta': 0.05}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.05
+Regret: 214291.6
+
+Best Regret: 214291.6
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 0.9, 'beta': 0.05}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [3, 6], Wind: True, Transition Probability: 1.0, Exploration Policy: softmax
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.005
+Total Reward: 1.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.01
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.05
+Total Reward: 1.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.1
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.005
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.01
+Total Reward: -5.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.05
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.1
+Total Reward: -4.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.005
+Total Reward: -5.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.01
+Total Reward: -5.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.05
+Total Reward: -5.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.1
+Total Reward: -4.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.005
+Total Reward: -4.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.01
+Total Reward: -5.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.05
+Total Reward: -4.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.1
+Total Reward: -4.0
+
+Best Reward 1.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.01, 'gamma': 0.9, 'beta': 0.005}, {'alpha': 0.01, 'gamma': 0.9, 'beta': 0.05}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.005
+Regret: 111906.00000000001
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.05
+Regret: 115434.8
+
+Best Regret: 111906.00000000001
+Best Hyperparameters: {'alpha': 0.01, 'gamma': 0.9, 'beta': 0.005}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [3, 6], Wind: True, Transition Probability: 0.7, Exploration Policy: softmax
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.005
+Total Reward: -211.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.01
+Total Reward: -210.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.05
+Total Reward: -23.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.1
+Total Reward: -36.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.005
+Total Reward: -17.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.01
+Total Reward: -31.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.05
+Total Reward: -9.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.1
+Total Reward: -110.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.005
+Total Reward: -113.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.01
+Total Reward: -106.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.05
+Total Reward: -334.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.1
+Total Reward: -40.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.005
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.01
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.05
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.1
+Total Reward: -129.0
+
+Best Reward -6.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.1, 'gamma': 1.0, 'beta': 0.005}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.005
+Regret: 512132.4
+
+Best Regret: 512132.4
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 1.0, 'beta': 0.005}
+
+
+Creating Required Plots...
+
+

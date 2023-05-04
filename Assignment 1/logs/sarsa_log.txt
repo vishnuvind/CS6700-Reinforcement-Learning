@@ -1,0 +1,1597 @@
+Running Experiment with parameters: Start State: [0, 4], Wind: False, Transition Probability: 1.0, Exploration Policy: epsilon
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.001
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.1
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.001
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.1
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.001
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.1
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.001
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.1
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.001
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.1
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.001
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.1
+Total Reward: -6.0
+
+Best Reward -6.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.01, 'gamma': 0.8, 'epsilon': 0.001}, {'alpha': 0.01, 'gamma': 0.8, 'epsilon': 0.01}, {'alpha': 0.01, 'gamma': 0.8, 'epsilon': 0.1}, {'alpha': 0.01, 'gamma': 0.9, 'epsilon': 0.001}, {'alpha': 0.01, 'gamma': 0.9, 'epsilon': 0.01}, {'alpha': 0.01, 'gamma': 0.9, 'epsilon': 0.1}, {'alpha': 0.01, 'gamma': 1.0, 'epsilon': 0.001}, {'alpha': 0.01, 'gamma': 1.0, 'epsilon': 0.01}, {'alpha': 0.01, 'gamma': 1.0, 'epsilon': 0.1}, {'alpha': 0.1, 'gamma': 0.8, 'epsilon': 0.001}, {'alpha': 0.1, 'gamma': 0.8, 'epsilon': 0.01}, {'alpha': 0.1, 'gamma': 0.8, 'epsilon': 0.1}, {'alpha': 0.1, 'gamma': 0.9, 'epsilon': 0.001}, {'alpha': 0.1, 'gamma': 0.9, 'epsilon': 0.01}, {'alpha': 0.1, 'gamma': 0.9, 'epsilon': 0.1}, {'alpha': 0.1, 'gamma': 1.0, 'epsilon': 0.001}, {'alpha': 0.1, 'gamma': 1.0, 'epsilon': 0.01}, {'alpha': 0.1, 'gamma': 1.0, 'epsilon': 0.1}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 109466.39999999998
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 114976.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 153136.6
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 93788.19999999998
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 96760.59999999999
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 131407.80000000002
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 83949.4
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 86129.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 117820.2
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 13297.4
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 18979.6
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 38614.4
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 10660.999999999996
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 12566.599999999997
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 33369.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 9689.000000000002
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 11555.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 31268.199999999997
+
+Best Regret: 9689.000000000002
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 1.0, 'epsilon': 0.001}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [0, 4], Wind: False, Transition Probability: 1.0, Exploration Policy: softmax
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 0.5
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 1.0
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.5
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 1.0
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 5.0
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.5
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 1.0
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 5.0
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 0.5
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 1.0
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.5
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 1.0
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 5.0
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.5
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 1.0
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 5.0
+Total Reward: -6.0
+
+Best Reward -6.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.01, 'gamma': 0.8, 'beta': 0.5}, {'alpha': 0.01, 'gamma': 0.8, 'beta': 1.0}, {'alpha': 0.01, 'gamma': 0.9, 'beta': 0.5}, {'alpha': 0.01, 'gamma': 0.9, 'beta': 1.0}, {'alpha': 0.01, 'gamma': 0.9, 'beta': 5.0}, {'alpha': 0.01, 'gamma': 1.0, 'beta': 0.5}, {'alpha': 0.01, 'gamma': 1.0, 'beta': 1.0}, {'alpha': 0.01, 'gamma': 1.0, 'beta': 5.0}, {'alpha': 0.1, 'gamma': 0.8, 'beta': 0.5}, {'alpha': 0.1, 'gamma': 0.8, 'beta': 1.0}, {'alpha': 0.1, 'gamma': 0.9, 'beta': 0.5}, {'alpha': 0.1, 'gamma': 0.9, 'beta': 1.0}, {'alpha': 0.1, 'gamma': 0.9, 'beta': 5.0}, {'alpha': 0.1, 'gamma': 1.0, 'beta': 0.5}, {'alpha': 0.1, 'gamma': 1.0, 'beta': 1.0}, {'alpha': 0.1, 'gamma': 1.0, 'beta': 5.0}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 0.5
+Regret: 477674.8
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 1.0
+Regret: 750412.2000000001
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.5
+Regret: 174973.80000000002
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 1.0
+Regret: 299260.4
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 5.0
+Regret: 919461.4
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.5
+Regret: 131050.40000000001
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 1.0
+Regret: 166923.59999999998
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 5.0
+Regret: 573348.8
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 0.5
+Regret: 311836.19999999995
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 1.0
+Regret: 635296.6
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.5
+Regret: 37051.399999999994
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 1.0
+Regret: 133724.6
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 5.0
+Regret: 846635.2
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.5
+Regret: 14019.200000000003
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 1.0
+Regret: 40156.8
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 5.0
+Regret: 304285.0
+
+Best Regret: 14019.200000000003
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 1.0, 'beta': 0.5}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [0, 4], Wind: False, Transition Probability: 0.7, Exploration Policy: epsilon
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.01
+Total Reward: -105.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.001
+Total Reward: -7.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.1
+Total Reward: -19.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.001
+Total Reward: -24.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.01
+Total Reward: -7.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.1
+Total Reward: -11.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.001
+Total Reward: -22.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.01
+Total Reward: -8.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.1
+Total Reward: -10.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.001
+Total Reward: -14.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.01
+Total Reward: -25.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.1
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.001
+Total Reward: -20.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.01
+Total Reward: -13.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.1
+Total Reward: -18.0
+
+Best Reward -6.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.1, 'gamma': 0.9, 'epsilon': 0.1}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 148877.6
+
+Best Regret: 148877.6
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 0.9, 'epsilon': 0.1}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [0, 4], Wind: False, Transition Probability: 0.7, Exploration Policy: softmax
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 1.0
+Total Reward: -14.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.5
+Total Reward: -21.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 1.0
+Total Reward: -13.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.5
+Total Reward: -12.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 1.0
+Total Reward: -12.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 5.0
+Total Reward: -12.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.5
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 1.0
+Total Reward: -20.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 5.0
+Total Reward: -48.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.5
+Total Reward: -16.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 1.0
+Total Reward: -11.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 5.0
+Total Reward: -11.0
+
+Best Reward -9.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.1, 'gamma': 0.9, 'beta': 0.5}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.5
+Regret: 416592.6
+
+Best Regret: 416592.6
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 0.9, 'beta': 0.5}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [0, 4], Wind: True, Transition Probability: 1.0, Exploration Policy: epsilon
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.001
+Total Reward: -7.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.01
+Total Reward: -7.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.1
+Total Reward: -13.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.001
+Total Reward: -10.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.1
+Total Reward: -13.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.001
+Total Reward: -7.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.01
+Total Reward: -5.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.1
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.001
+Total Reward: -13.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.01
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.1
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.001
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.1
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.001
+Total Reward: -7.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.1
+Total Reward: -9.0
+
+Best Reward -5.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.01, 'gamma': 1.0, 'epsilon': 0.01}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 115878.39999999998
+
+Best Regret: 115878.39999999998
+Best Hyperparameters: {'alpha': 0.01, 'gamma': 1.0, 'epsilon': 0.01}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [0, 4], Wind: True, Transition Probability: 1.0, Exploration Policy: softmax
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.5
+Total Reward: -10.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 1.0
+Total Reward: -8.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.5
+Total Reward: -11.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 1.0
+Total Reward: -7.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 5.0
+Total Reward: -10.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 0.5
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 1.0
+Total Reward: -8.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.5
+Total Reward: -13.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 1.0
+Total Reward: -8.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.5
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 1.0
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 5.0
+Total Reward: -7.0
+
+Best Reward -6.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.1, 'gamma': 1.0, 'beta': 1.0}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 1.0
+Regret: 72421.0
+
+Best Regret: 72421.0
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 1.0, 'beta': 1.0}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [0, 4], Wind: True, Transition Probability: 0.7, Exploration Policy: epsilon
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.001
+Total Reward: -110.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.01
+Total Reward: -209.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.1
+Total Reward: -26.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.001
+Total Reward: -21.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.01
+Total Reward: -9.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.1
+Total Reward: -46.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.001
+Total Reward: -13.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.01
+Total Reward: -17.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.1
+Total Reward: -52.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.001
+Total Reward: -15.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.01
+Total Reward: -25.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.1
+Total Reward: -8.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.001
+Total Reward: -50.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.01
+Total Reward: -18.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.001
+Total Reward: -10.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.01
+Total Reward: -11.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.1
+Total Reward: -21.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.001
+Total Reward: -28.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.01
+Total Reward: -17.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.1
+Total Reward: -28.0
+
+Best Reward -8.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.01, 'gamma': 1.0, 'epsilon': 0.1}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 382660.6
+
+Best Regret: 382660.6
+Best Hyperparameters: {'alpha': 0.01, 'gamma': 1.0, 'epsilon': 0.1}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [0, 4], Wind: True, Transition Probability: 0.7, Exploration Policy: softmax
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 0.5
+Total Reward: -51.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 1.0
+Total Reward: -105.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 0.5
+Total Reward: -41.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 1.0
+Total Reward: -105.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 1.0
+Total Reward: -120.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 5.0
+Total Reward: -78.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.5
+Total Reward: -11.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 1.0
+Total Reward: -19.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 5.0
+Total Reward: -31.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 1.0
+Total Reward: -47.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.5
+Total Reward: -7.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 5.0
+Total Reward: -199.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.5
+Total Reward: -29.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 1.0
+Total Reward: -14.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 5.0
+Total Reward: -14.0
+
+Best Reward -7.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.1, 'gamma': 0.9, 'beta': 0.5}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.5
+Regret: 920961.6
+
+Best Regret: 920961.6
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 0.9, 'beta': 0.5}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [3, 6], Wind: False, Transition Probability: 1.0, Exploration Policy: epsilon
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.001
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.01
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.1
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.001
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.01
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.1
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.001
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.01
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.1
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.001
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.01
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.1
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.001
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.01
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.1
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.001
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.01
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.1
+Total Reward: -1.0
+
+Best Reward -1.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.01, 'gamma': 0.8, 'epsilon': 0.001}, {'alpha': 0.01, 'gamma': 0.8, 'epsilon': 0.01}, {'alpha': 0.01, 'gamma': 0.8, 'epsilon': 0.1}, {'alpha': 0.01, 'gamma': 0.9, 'epsilon': 0.001}, {'alpha': 0.01, 'gamma': 0.9, 'epsilon': 0.01}, {'alpha': 0.01, 'gamma': 0.9, 'epsilon': 0.1}, {'alpha': 0.01, 'gamma': 1.0, 'epsilon': 0.001}, {'alpha': 0.01, 'gamma': 1.0, 'epsilon': 0.01}, {'alpha': 0.01, 'gamma': 1.0, 'epsilon': 0.1}, {'alpha': 0.1, 'gamma': 0.8, 'epsilon': 0.001}, {'alpha': 0.1, 'gamma': 0.8, 'epsilon': 0.01}, {'alpha': 0.1, 'gamma': 0.8, 'epsilon': 0.1}, {'alpha': 0.1, 'gamma': 0.9, 'epsilon': 0.001}, {'alpha': 0.1, 'gamma': 0.9, 'epsilon': 0.01}, {'alpha': 0.1, 'gamma': 0.9, 'epsilon': 0.1}, {'alpha': 0.1, 'gamma': 1.0, 'epsilon': 0.001}, {'alpha': 0.1, 'gamma': 1.0, 'epsilon': 0.01}, {'alpha': 0.1, 'gamma': 1.0, 'epsilon': 0.1}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 87107.40000000002
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 92281.20000000001
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 160285.4
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 79897.8
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 84373.59999999999
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 146749.19999999998
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 73525.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 78053.4
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 135378.2
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 10185.000000000002
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 14590.4
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 72371.2
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 9617.800000000001
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 12983.2
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 60866.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 8884.4
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 12881.2
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 58035.600000000006
+
+Best Regret: 8884.4
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 1.0, 'epsilon': 0.001}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [3, 6], Wind: False, Transition Probability: 1.0, Exploration Policy: softmax
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 0.5
+Total Reward: -1.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 1.0
+Total Reward: -1.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 0.5
+Total Reward: -1.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 1.0
+Total Reward: -1.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 0.5
+Total Reward: -1.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 1.0
+Total Reward: -1.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 5.0
+Total Reward: -3.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 0.5
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 1.0
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.5
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 1.0
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.5
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 1.0
+Total Reward: -1.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 5.0
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 0.5
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 1.0
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.5
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 1.0
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 5.0
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.5
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 1.0
+Total Reward: -1.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 5.0
+Total Reward: -1.0
+
+Best Reward -1.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.001, 'gamma': 0.8, 'beta': 0.5}, {'alpha': 0.001, 'gamma': 0.8, 'beta': 1.0}, {'alpha': 0.001, 'gamma': 0.9, 'beta': 0.5}, {'alpha': 0.001, 'gamma': 0.9, 'beta': 1.0}, {'alpha': 0.001, 'gamma': 1.0, 'beta': 0.5}, {'alpha': 0.001, 'gamma': 1.0, 'beta': 1.0}, {'alpha': 0.01, 'gamma': 0.8, 'beta': 0.5}, {'alpha': 0.01, 'gamma': 0.8, 'beta': 1.0}, {'alpha': 0.01, 'gamma': 0.9, 'beta': 0.5}, {'alpha': 0.01, 'gamma': 0.9, 'beta': 1.0}, {'alpha': 0.01, 'gamma': 1.0, 'beta': 0.5}, {'alpha': 0.01, 'gamma': 1.0, 'beta': 1.0}, {'alpha': 0.01, 'gamma': 1.0, 'beta': 5.0}, {'alpha': 0.1, 'gamma': 0.8, 'beta': 0.5}, {'alpha': 0.1, 'gamma': 0.8, 'beta': 1.0}, {'alpha': 0.1, 'gamma': 0.9, 'beta': 0.5}, {'alpha': 0.1, 'gamma': 0.9, 'beta': 1.0}, {'alpha': 0.1, 'gamma': 0.9, 'beta': 5.0}, {'alpha': 0.1, 'gamma': 1.0, 'beta': 0.5}, {'alpha': 0.1, 'gamma': 1.0, 'beta': 1.0}, {'alpha': 0.1, 'gamma': 1.0, 'beta': 5.0}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 0.5
+Regret: 887369.8
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 1.0
+Regret: 961064.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 0.5
+Regret: 857147.6000000001
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 1.0
+Regret: 940192.4
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 0.5
+Regret: 829287.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 1.0
+Regret: 915960.4
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 0.5
+Regret: 256374.2
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 1.0
+Regret: 537182.4
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.5
+Regret: 143981.59999999998
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 1.0
+Regret: 210323.19999999995
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.5
+Regret: 119696.40000000001
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 1.0
+Regret: 151970.4
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 5.0
+Regret: 557236.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 0.5
+Regret: 107707.59999999999
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 1.0
+Regret: 417367.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.5
+Regret: 19725.4
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 1.0
+Regret: 68613.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 5.0
+Regret: 793878.8
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.5
+Regret: 12757.6
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 1.0
+Regret: 15649.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 5.0
+Regret: 285628.8
+
+Best Regret: 12757.6
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 1.0, 'beta': 0.5}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [3, 6], Wind: False, Transition Probability: 0.7, Exploration Policy: epsilon
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.1
+Total Reward: -42.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.01
+Total Reward: -62.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.001
+Total Reward: -14.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.01
+Total Reward: -15.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.1
+Total Reward: -20.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.001
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.01
+Total Reward: -21.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.1
+Total Reward: -17.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.001
+Total Reward: -20.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.01
+Total Reward: -15.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.1
+Total Reward: -27.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.001
+Total Reward: -15.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.01
+Total Reward: -18.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.1
+Total Reward: -57.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.001
+Total Reward: -17.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.01
+Total Reward: -13.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.1
+Total Reward: -20.0
+
+Best Reward -6.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.01, 'gamma': 0.9, 'epsilon': 0.001}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 283934.60000000003
+
+Best Regret: 283934.60000000003
+Best Hyperparameters: {'alpha': 0.01, 'gamma': 0.9, 'epsilon': 0.001}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [3, 6], Wind: False, Transition Probability: 0.7, Exploration Policy: softmax
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 0.5
+Total Reward: -10.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.5
+Total Reward: -2.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 1.0
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 5.0
+Total Reward: -15.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.5
+Total Reward: -17.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 1.0
+Total Reward: -23.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 5.0
+Total Reward: -7.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.5
+Total Reward: -19.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 1.0
+Total Reward: -9.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 5.0
+Total Reward: -37.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.5
+Total Reward: -17.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 1.0
+Total Reward: -12.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 5.0
+Total Reward: -46.0
+
+Best Reward -2.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.01, 'gamma': 0.9, 'beta': 0.5}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.5
+Regret: 538242.2
+
+Best Regret: 538242.2
+Best Hyperparameters: {'alpha': 0.01, 'gamma': 0.9, 'beta': 0.5}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [3, 6], Wind: True, Transition Probability: 1.0, Exploration Policy: epsilon
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.1
+Total Reward: -4.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.001
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.001
+Total Reward: -16.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.01
+Total Reward: -195.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.001
+Total Reward: -5.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.01
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.1
+Total Reward: -5.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.001
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.01
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.1
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.001
+Total Reward: -5.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.01
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.1
+Total Reward: -5.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.001
+Total Reward: -22.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.1
+Total Reward: -12.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.001
+Total Reward: -5.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.01
+Total Reward: -14.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.1
+Total Reward: -4.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.001
+Total Reward: -6.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.01
+Total Reward: -4.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.1
+Total Reward: -6.0
+
+Best Reward -4.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.001, 'gamma': 0.8, 'epsilon': 0.1}, {'alpha': 0.01, 'gamma': 0.8, 'epsilon': 0.01}, {'alpha': 0.01, 'gamma': 0.9, 'epsilon': 0.001}, {'alpha': 0.01, 'gamma': 0.9, 'epsilon': 0.01}, {'alpha': 0.01, 'gamma': 0.9, 'epsilon': 0.1}, {'alpha': 0.01, 'gamma': 1.0, 'epsilon': 0.01}, {'alpha': 0.1, 'gamma': 0.9, 'epsilon': 0.1}, {'alpha': 0.1, 'gamma': 1.0, 'epsilon': 0.01}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 701828.6
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 78795.20000000001
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.001
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 63997.6
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 71654.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 187977.59999999998
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 67625.6
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.1
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 132915.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 21836.399999999998
+
+Best Regret: 21836.399999999998
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 1.0, 'epsilon': 0.01}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [3, 6], Wind: True, Transition Probability: 1.0, Exploration Policy: softmax
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 0.5
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 1.0
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.5
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 1.0
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 5.0
+Total Reward: -5.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.5
+Total Reward: -4.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 1.0
+Total Reward: -5.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 5.0
+Total Reward: -4.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 0.5
+Total Reward: -4.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 1.0
+Total Reward: -4.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.5
+Total Reward: -4.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 1.0
+Total Reward: 0.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 5.0
+Total Reward: -4.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.5
+Total Reward: -4.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 1.0
+Total Reward: -5.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 5.0
+Total Reward: -5.0
+
+Best Reward 0.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.1, 'gamma': 0.9, 'beta': 1.0}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 1.0
+Regret: 157152.2
+
+Best Regret: 157152.2
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 0.9, 'beta': 1.0}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [3, 6], Wind: True, Transition Probability: 0.7, Exploration Policy: epsilon
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.001
+Total Reward: -399.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.01
+Total Reward: -13.0
+Current configuration: alpha = 0.001, gamma = 0.8, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.001
+Total Reward: -56.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.001
+Total Reward: -170.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.01
+Total Reward: -65.0
+Current configuration: alpha = 0.001, gamma = 1.0, epsilon = 0.1
+Total Reward: -50.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.001
+Total Reward: -52.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.01
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.1
+Total Reward: -298.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.001
+Total Reward: -92.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.01
+Total Reward: -9.0
+Current configuration: alpha = 0.01, gamma = 0.9, epsilon = 0.1
+Total Reward: -9.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.001
+Total Reward: -9.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.01
+Total Reward: -112.0
+Current configuration: alpha = 0.01, gamma = 1.0, epsilon = 0.1
+Total Reward: -16.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.001
+Total Reward: -8.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.01
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.8, epsilon = 0.1
+Total Reward: -100.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.001
+Total Reward: -38.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.01
+Total Reward: -159.0
+Current configuration: alpha = 0.1, gamma = 0.9, epsilon = 0.1
+Total Reward: -20.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.001
+Total Reward: -45.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.01
+Total Reward: -215.0
+Current configuration: alpha = 0.1, gamma = 1.0, epsilon = 0.1
+Total Reward: -29.0
+
+Best Reward -6.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.01, 'gamma': 0.8, 'epsilon': 0.01}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.01, gamma = 0.8, epsilon = 0.01
+Running Experiment: 1
+Running Experiment: 2
+Running Experiment: 3
+Running Experiment: 4
+Running Experiment: 5
+Regret: 686888.0
+
+Best Regret: 686888.0
+Best Hyperparameters: {'alpha': 0.01, 'gamma': 0.8, 'epsilon': 0.01}
+
+
+Creating Required Plots...
+
+
+Running Experiment with parameters: Start State: [3, 6], Wind: True, Transition Probability: 0.7, Exploration Policy: softmax
+-------------------------------------------------------------------------------------------------------
+
+Starting Asymptotic Grid Search:
+
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 1.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.8, beta = 5.0
+Total Reward: -100.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 0.5
+Total Reward: -140.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 1.0
+Total Reward: -120.0
+Current configuration: alpha = 0.001, gamma = 0.9, beta = 5.0
+Total Reward: -125.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 0.5
+Total Reward: -303.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 1.0
+Total Reward: -40.0
+Current configuration: alpha = 0.001, gamma = 1.0, beta = 5.0
+Total Reward: -90.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 0.5
+Total Reward: -7.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 1.0
+Total Reward: -250.0
+Current configuration: alpha = 0.01, gamma = 0.8, beta = 5.0
+Total Reward: -105.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 0.5
+Total Reward: -100.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 1.0
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 0.9, beta = 5.0
+Total Reward: -6.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 0.5
+Total Reward: -8.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 1.0
+Total Reward: -418.0
+Current configuration: alpha = 0.01, gamma = 1.0, beta = 5.0
+Total Reward: -105.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 0.5
+Total Reward: -38.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 1.0
+Total Reward: -8.0
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 5.0
+Total Reward: -5.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 0.5
+Total Reward: -15.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 1.0
+Total Reward: -11.0
+Current configuration: alpha = 0.1, gamma = 0.9, beta = 5.0
+Total Reward: -17.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 0.5
+Total Reward: -8.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 1.0
+Total Reward: -8.0
+Current configuration: alpha = 0.1, gamma = 1.0, beta = 5.0
+Total Reward: -106.0
+
+Best Reward -5.0
+Asymptotic Best Hyper Parameters List [{'alpha': 0.1, 'gamma': 0.8, 'beta': 5.0}]
+
+Starting Regret Grid Search:
+
+Current configuration: alpha = 0.1, gamma = 0.8, beta = 5.0
+Regret: 1193219.8
+
+Best Regret: 1193219.8
+Best Hyperparameters: {'alpha': 0.1, 'gamma': 0.8, 'beta': 5.0}
+
+
+Creating Required Plots...
+
+
